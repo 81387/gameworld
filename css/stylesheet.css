@@ -1,0 +1,292 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: arial;
+    background-position: center center;
+}
+
+#main-container {
+    width: 1100px;
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+#games-container {
+  background-color: black;
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.navigation-bar {
+    height: 70px;
+  background-color: black;
+  outline-style: solid;
+  outline-width: 3px;
+  outline-color: #5f0402;
+  margin-top: 90px;
+  width: 1100px;
+}
+a:link {
+    text-decoration: none;
+}
+.navigation-bar a:hover {
+  background-color: #5f0402;
+  text-decoration: none;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.main-nav a {
+  color: #21cc1b;
+}
+
+.logo {
+    float: left;
+  color: white;
+  font-size: 37px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 13px;
+  margin-left: 70px;
+}
+
+.logo a {
+  color: #21cc1b
+}
+
+.main-nav ul {
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-nav li {
+  text-decoration: none;
+  display: inline;
+  color: white;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  height: 45px;
+  text-align: center;
+  color: 83,255,0;
+  padding-top: 24px;
+}
+
+.main-nav li a:hover {
+  background-color: #5f0402;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-decoration: none;
+  float: right;
+  margin-right: 70px;
+}
+
+.banner {
+    background-image: url("../img/background-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: arial;
+    color: white;
+    width: 1100px;
+    height: 350px;
+    padding-top: 10px;
+}
+
+.banner h1, h3{
+  position: relative;
+  left: 25px;
+  top: 100px;
+}
+
+.platform-pc {
+  position: absolute;
+  left: 0px;
+  bottom: 50px;
+}
+
+.platform-xbox {
+  position: absolute;
+  left: 400px;
+  bottom: 50px;
+}
+
+.platform-ps4 {
+  position: absolute;
+  right: 0px;
+  bottom: 50px;
+}
+
+.whitebox-container {
+  background-color: black;
+  color: 83,255,0;
+  width: 1100px;
+  height: 500px;
+}
+
+.aboutus-text {
+  padding-top: 20px;
+  float: left;
+  width: 525px;
+}
+
+.aboutus-text h3 {
+  top: 10px;
+  color: #21cc1b;
+}
+
+.aboutus-text p {
+  top: 20px;
+  margin-left: 10px;
+  color: #21cc1b;
+}
+
+.aboutus-image {
+  padding-top: 20px;
+  float: right;
+  width: 525px;
+}
+
+.contact-container {
+  background-color: black;
+  width: 1100px;
+  height: 630px;  
+}
+
+.contact-text {
+  position: relative;
+  left: 40px;
+  padding-top: 20px;
+  float: left;
+  width: 525px;
+  color: #21cc1b;
+}
+
+.productList{
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+}
+.product-container{
+  width: 249px;
+height: 320px;
+display: inline-block;
+margin-top: 10px;
+margin-right: 5px;
+margin-left: 15px;
+  border: 1px solid red;
+}
+
+.productName{
+  width: 100%;
+  height: 25px;
+  background-color: black;
+  background: rgb(255,255,255,);
+  display: block;
+  margin: 200px auto 0px;
+  line-height: 1;
+  text-align: center;
+  font-family:  Arial Black;
+  color: #21cc1b;
+  padding-top: 10px;
+  margin-top: 250px;
+  z-index: 1;
+}
+.productPrice{
+  width: 50px;
+  height:30px;
+  z-index: 3;
+  background-color: blue;
+  text-align: center;
+  display: block;
+  float: right;
+  margin-top: -75px;
+  opacity: 1;
+  line-height: 2;
+  background: black;
+  color: #21cc1b
+}
+
+.productDescription{
+  height: 35px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+#footer-text {
+  margin: 0 auto;
+  color: #21cc1b ;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  position:fixed;
+  left: 0px;
+  bottom: 0px;
+  height:40px;
+  width:100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.checkout-container{
+  width: 1100px;
+  height: 100%;
+  background-color:black;
+  color: #21cc1b;
+}
+
+.idcat_name {
+  color: #21cc1b;
+  text-align: center;
+}
+
+
+input[type=text], select, textarea {
+   width: 1000px;
+   position: relative;
+   left: 40px;
+   border: 2px solid #21cc1b;
+   right: 40px;
+  }
+
+.button-contact{
+  position: relative;
+  left: 500px;
+}
+
+.checkout-table{
+  position: relative;
+  top: 10px;
+  border-collapse: collapse;
+}
+
+.checkout-table, th, td{
+  border: 2px solid red;
+}
+
+.total-table{
+  border-collapse: collapse;
+  position: relative;
+  left: 1016px;
+  top: 10px;
+}
